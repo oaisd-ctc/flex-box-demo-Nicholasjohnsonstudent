@@ -1,0 +1,27 @@
+.container{
+    border-style: solid;
+    animation: pulse 2s infinite;
+    display: flex;
+    text-align: center;
+}
+
+.flex-item{
+    max-width: unset;
+    margin: auto;
+    border: solid 1px rgb(250, 250, 250);
+    display: flex;
+    padding: 1em;
+    background-color: rgb(39, 218, 182);
+    max-width: unset;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    
+}
+
+.center{
+    text-align: center;
+
+}
+
