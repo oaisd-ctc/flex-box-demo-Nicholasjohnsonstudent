@@ -8,6 +8,7 @@
 .border{
     border: 2px;
     border-style: solid;
+    padding: 1em;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -49,14 +50,29 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 30px;
 }
 
-.flex-direction {
+.column {
     display: flex;
     flex-direction: column;
     background-color: rgb(39, 218, 182);
 
 }
 
-.flex-direction > div {
+.column > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(39, 218, 182);
+}
+
+.column-reverse > div {
     background-color: #f1f1f1;
     width: 100px;
     margin: 10px;
@@ -80,3 +96,58 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 30px;
 }
 
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(39, 218, 182);
+    
+}
+
+.wrap > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.nowrap {
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: rgb(39, 218, 182);
+}
+
+.nowrap > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.wrap-reverse {
+    display:flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(39, 218, 182);
+}
+
+.wrap-reverse > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.flow {
+    display:flex;
+    flex-flow: row wrap;
+    background-color: rgb(39, 218, 182);
+}
+
+.flow > div {
+    
+}
