@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <h1 class="center">Flex-Direction</h1>
+        <h1>Flex-Direction</h1>
         
         <div class="border">
             <h2>This is Row and Row-reverse</h2> 
@@ -51,7 +51,6 @@
             <br/>
         </div>
         <br/>
-        <h1>Flex-wrap</h1>
         <div class="border">
             <h2>This is flex wrap, no wrap, and wrap-reverse</h2>
             <h3>Wrap makes it so the flex items move one space below if they dont fit on one line.<br/>No wrap makes it so the flex items just resize if they dont fit on that line.<br/>wrap-reverse makes it so when it wraps, the ten goes up one space and counts down</h3>
@@ -99,14 +98,14 @@
                 <div>9</div>
                 <div>10</div>
             </div>
+            <br/>
         </div>
         <br/>
-        <h1>flex-flow</h1>
         <div class="border">
-            <h2>This is flex wrap, no wrap, and wrap-reverse</h2>
-            <h3>Wrap makes it so the flex items move one space below if they dont fit on one line.<br/>No wrap makes it so the flex items just resize if they dont fit on that line.<br/>wrap-reverse makes it so when it wraps, the ten goes up one space and counts down</h3>
+            <h2>This is Row Wrap and Row Wrap-Reverse</h2>
+            <h3>This does the same thing as flex wrap</h3>
             <hr/>
-            <h3>Wrap</h3>
+            <h3>Row Wrap</h3>
             <div class="flow">
                 <div>1</div>
                 <div>2</div>
@@ -120,7 +119,78 @@
                 <div>10</div>
             </div>
             <br/>
+            <br/>
+            <h3>Row Wrap-Reverse</h3>
+            <div class="flow-reverse">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <h1>Flex-Items</h1>
+
+        <div class="border">
+            <h2>This is Flex-grow</h2>
+            <h3>Grow makes it so you can change the width of a certain flex item.</h3>
+            <hr/>
+            <h3>Flex-Grow</h3>
+            <div class="grow">
+                <div style="flex-grow: 1">1</div>
+                <div style="flex-grow: 5">2</div>
+                <div style="flex-grow: 3">3</div>
+            </div>
+            <br/>
+        </div>
+        <br/>
+        <div class="border">
+            <h2>This is Order</h2>
+            <h3>Order makes it so you can change the order of flex items.</h3>
+            <hr/>
+            <h3>Order</h3>
+            <div class="order">
+                <div style="order: 2">1</div>
+                <div style="order: 4">2</div>
+                <div style="order: 3">3</div>
+                <div style="order: 1">4</div>
+                <div style="order: 8">5</div>
+                <div style="order: 5">6</div>
+                <div style="order: 7">7</div>
+                <div style="order: 6">8</div>
+            </div>
+            <br/>
+        </div>
         <br/>
         
+        <div class="border">
+            <h2>This is Flex-Shrink</h2>
+            <h3>shrink will only shrink when there isnt enough room for all the flex items to be full size. <br/>then the computer will shrink the item that the code tells it to.</h3>
+            <hr/>
+            <h3>Shrink</h3>
+            <div class="shrink">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div style="flex-shrink: 3">5</div>
+                <div>6</div>
+                <div>7</div>
+                <div style="flex-shrink: 5">8</div>
+                <div>9</div>
+                <div>10</div>
+                <div>11</div>
+            </div>
+            <br/>
+        </div>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="color: rgb(26, 26, 26);" target="_blank">CLICK HERE</a>
     </body>
 </html>
